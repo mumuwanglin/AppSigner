@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B420ABB428DB54AE00C8367B /* SwiftShell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B420ABB328DB54AE00C8367B /* SwiftShell.swift */; };
+		B420ABC828DBF95E00C8367B /* StringByAppendingPathComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B420ABC728DBF95E00C8367B /* StringByAppendingPathComponent.swift */; };
+		B420ABCA28DC0B2300C8367B /* ProvisioningProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B420ABC928DC0B2300C8367B /* ProvisioningProfile.swift */; };
+		B420ABED28DC489600C8367B /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B420ABEC28DC489600C8367B /* Utils.swift */; };
 		B449AB0328DB53FD009C4FEB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B449AB0228DB53FD009C4FEB /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +27,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B420ABB328DB54AE00C8367B /* SwiftShell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftShell.swift; sourceTree = "<group>"; };
+		B420ABC728DBF95E00C8367B /* StringByAppendingPathComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringByAppendingPathComponent.swift; sourceTree = "<group>"; };
+		B420ABC928DC0B2300C8367B /* ProvisioningProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProvisioningProfile.swift; sourceTree = "<group>"; };
+		B420ABEC28DC489600C8367B /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		B449AAFF28DB53FD009C4FEB /* AppSigner */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AppSigner; sourceTree = BUILT_PRODUCTS_DIR; };
 		B449AB0228DB53FD009C4FEB /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				B449AB0228DB53FD009C4FEB /* main.swift */,
+				B420ABEC28DC489600C8367B /* Utils.swift */,
+				B420ABB328DB54AE00C8367B /* SwiftShell.swift */,
+				B420ABC928DC0B2300C8367B /* ProvisioningProfile.swift */,
+				B420ABC728DBF95E00C8367B /* StringByAppendingPathComponent.swift */,
 			);
 			path = AppSigner;
 			sourceTree = "<group>";
@@ -120,6 +132,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B420ABED28DC489600C8367B /* Utils.swift in Sources */,
+				B420ABCA28DC0B2300C8367B /* ProvisioningProfile.swift in Sources */,
+				B420ABB428DB54AE00C8367B /* SwiftShell.swift in Sources */,
+				B420ABC828DBF95E00C8367B /* StringByAppendingPathComponent.swift in Sources */,
 				B449AB0328DB53FD009C4FEB /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
